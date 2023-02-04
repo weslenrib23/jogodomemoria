@@ -4,10 +4,24 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "SuperMario";
+    src: url('/fonts/SuperMario256.ttf');
+}
+
 body{
     height: 100vh;
+    background-color: red;
+}
+
+h1{
+    font-family: "SuperMario";
     display: flex;
-    background-color: #060ab2;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    
 }
 
 .jogo{
@@ -45,7 +59,7 @@ body{
     padding: 20px;
     position: absolute;
     border-radius: 5px;
-    background-color: #1c7ccc;
+    background-color: white;
     backface-visibility: hidden;
 }
 
