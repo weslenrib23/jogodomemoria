@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: "SuperMario";
-    src: url('/fonts/SuperMario256.ttf');
+    src: url('./fonts/SuperMario256.ttf');
 }
 
 body{
