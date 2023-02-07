@@ -10,6 +10,17 @@
 <body>
 
     <h1>Jogo da Memoria</h1>
+
+    <section class="placar">
+        <section class="resultado">
+            <h1 class="font">Placar</h1>
+            <div id="resultado">0</div>
+        </section>
+        <section class="resultado">
+            <h1 class="font">Tempo</h1>
+            <div id="tempo">0</div>
+        </section>
+    </section>
     
     <section class="jogo">
         <div class="cartao" data-info="flor">
@@ -61,6 +72,22 @@
             <img src="./src/assets/img/carta-verso.png" class="verso-cartao" alt="Verso do cartao">
         </div>
         
+    </section>
+
+    <section id="recordes">
+        <h1>Recordes</h1>
+        <table id="resultados">
+            <thead>
+                <td>
+                    Nome
+                </td>
+                <td>
+                    Pontuacao
+                </td>
+            </thead>
+            
+        </table>
+        <button id="reiniciar">Reiniciar Jogo</button>
     </section>
 
     <script src="./js/index.js"></script>
